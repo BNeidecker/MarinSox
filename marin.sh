@@ -4,6 +4,7 @@
 #	author: brettn1@umbc.edu							   	
 #	description: a program that makes noises to sleep to   
 #	ver: 1.1
+#
 ############################################################
 
 command -v sox > /dev/null 2>&1 || { echo >&2 "I require SoX but it's not installed.  Aborting."; exit 1; }
